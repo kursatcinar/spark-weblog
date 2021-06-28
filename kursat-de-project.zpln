@@ -1,0 +1,368 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%sh\nls -lh",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T19:31:13+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "total 46M\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 18 20:42 airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 20 09:51 airlines.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 14:12 airlines.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 18:13 airlines.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 24 13:41 airlines.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 27 11:28 airlines.dat.5\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 18 20:42 airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 20 09:50 airports.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 14:11 airports.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 18:13 airports.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 24 13:41 airports.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 24 13:53 airports.dat.5\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 27 11:28 airports.dat.6\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 22 10:27 alper_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 22 10:27 alper_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 22 10:27 alper_routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 13:37 busra_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 13:37 busra_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 13:38 busra_routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 21 21:47 kursat_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 21 21:46 kursat_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 21 21:48 kursat_routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 25 12:25 mb_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 25 12:25 mb_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 25 12:25 mb_routes.dat\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jun 28 15:51 neslihan\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 14:29 nk_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 14:28 nk_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 14:29 nk_routes.dat\ndrwxr-xr-x 7 zeppelin zeppelin 4.0K May 15 20:37 notebook\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 18 20:43 routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 20 09:51 routes.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 14:12 routes.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 18:14 routes.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 24 13:42 routes.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 27 11:28 routes.dat.5\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jun 27 19:03 tuna\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 27 11:30 yy_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 27 11:29 yy_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 27 11:30 yy_routes.dat\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624908259652_1254411860",
+      "id": "paragraph_1624908259652_1254411860",
+      "dateCreated": "2021-06-28T19:24:19+0000",
+      "dateStarted": "2021-06-28T19:31:13+0000",
+      "dateFinished": "2021-06-28T19:31:13+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:6434"
+    },
+    {
+      "text": "%sh\nmkdir kursatcinar",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T19:31:20+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624908406276_2147206824",
+      "id": "paragraph_1624908406276_2147206824",
+      "dateCreated": "2021-06-28T19:26:46+0000",
+      "dateStarted": "2021-06-28T19:31:20+0000",
+      "dateFinished": "2021-06-28T19:31:20+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6435"
+    },
+    {
+      "text": "%sh\ngit clone https://github.com/kursatcinar/spark-weblog.git",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T20:11:33+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Cloning into 'spark-weblog'...\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624908574155_1421683102",
+      "id": "paragraph_1624908574155_1421683102",
+      "dateCreated": "2021-06-28T19:29:34+0000",
+      "dateStarted": "2021-06-28T20:11:33+0000",
+      "dateFinished": "2021-06-28T20:11:36+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6436"
+    },
+    {
+      "text": "%sh\nmv spark-weblog kursatcinar/",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T20:13:52+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624911140308_1895525064",
+      "id": "paragraph_1624911140308_1895525064",
+      "dateCreated": "2021-06-28T20:12:20+0000",
+      "dateStarted": "2021-06-28T20:13:52+0000",
+      "dateFinished": "2021-06-28T20:13:52+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6437"
+    },
+    {
+      "text": "%sh\nls kursatcinar/spark-weblog/weblog/",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T20:14:35+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "2013-09-20.log\n2013-09-21.log\n2013-09-22.log\n2013-09-23.log\n2013-09-24.log\n2013-09-25.log\n2013-09-26.log\n2013-09-27.log\n2013-09-28.log\n2013-09-29.log\n2013-09-30.log\n2013-10-01.log\n2013-10-02.log\n2013-10-03.log\n2013-10-04.log\n2013-10-05.log\n2013-10-06.log\n2013-10-07.log\n2013-10-08.log\n2013-10-09.log\n2013-10-10.log\n2013-10-11.log\nlog.txt\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624911239320_680726621",
+      "id": "paragraph_1624911239320_680726621",
+      "dateCreated": "2021-06-28T20:13:59+0000",
+      "dateStarted": "2021-06-28T20:14:35+0000",
+      "dateFinished": "2021-06-28T20:14:35+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6438"
+    },
+    {
+      "text": "%sh\nhdfs dfs -mkdir kursat/weblogs",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T20:25:21+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624911883968_518104470",
+      "id": "paragraph_1624911883968_518104470",
+      "dateCreated": "2021-06-28T20:24:43+0000",
+      "dateStarted": "2021-06-28T20:25:21+0000",
+      "dateFinished": "2021-06-28T20:25:23+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6439"
+    },
+    {
+      "text": "%sh\nhdfs dfs -put kursatcinar/spark-weblog/weblog/*.log kursat/weblogs/",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T20:27:01+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624911957486_87473581",
+      "id": "paragraph_1624911957486_87473581",
+      "dateCreated": "2021-06-28T20:25:57+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6441",
+      "dateFinished": "2021-06-28T20:27:04+0000",
+      "dateStarted": "2021-06-28T20:27:01+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "text": "%sh\nhdfs dfs -ls kursat/weblogs",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T20:28:09+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Found 22 items\n-rw-r--r--   2 zeppelin hadoop     495382 2021-06-28 20:27 kursat/weblogs/2013-09-20.log\n-rw-r--r--   2 zeppelin hadoop     492353 2021-06-28 20:27 kursat/weblogs/2013-09-21.log\n-rw-r--r--   2 zeppelin hadoop     539318 2021-06-28 20:27 kursat/weblogs/2013-09-22.log\n-rw-r--r--   2 zeppelin hadoop     505084 2021-06-28 20:27 kursat/weblogs/2013-09-23.log\n-rw-r--r--   2 zeppelin hadoop     492577 2021-06-28 20:27 kursat/weblogs/2013-09-24.log\n-rw-r--r--   2 zeppelin hadoop     491070 2021-06-28 20:27 kursat/weblogs/2013-09-25.log\n-rw-r--r--   2 zeppelin hadoop     526642 2021-06-28 20:27 kursat/weblogs/2013-09-26.log\n-rw-r--r--   2 zeppelin hadoop     509532 2021-06-28 20:27 kursat/weblogs/2013-09-27.log\n-rw-r--r--   2 zeppelin hadoop     495859 2021-06-28 20:27 kursat/weblogs/2013-09-28.log\n-rw-r--r--   2 zeppelin hadoop     484665 2021-06-28 20:27 kursat/weblogs/2013-09-29.log\n-rw-r--r--   2 zeppelin hadoop     528844 2021-06-28 20:27 kursat/weblogs/2013-09-30.log\n-rw-r--r--   2 zeppelin hadoop     488117 2021-06-28 20:27 kursat/weblogs/2013-10-01.log\n-rw-r--r--   2 zeppelin hadoop     530933 2021-06-28 20:27 kursat/weblogs/2013-10-02.log\n-rw-r--r--   2 zeppelin hadoop     524702 2021-06-28 20:27 kursat/weblogs/2013-10-03.log\n-rw-r--r--   2 zeppelin hadoop     502245 2021-06-28 20:27 kursat/weblogs/2013-10-04.log\n-rw-r--r--   2 zeppelin hadoop     513880 2021-06-28 20:27 kursat/weblogs/2013-10-05.log\n-rw-r--r--   2 zeppelin hadoop     492793 2021-06-28 20:27 kursat/weblogs/2013-10-06.log\n-rw-r--r--   2 zeppelin hadoop     492846 2021-06-28 20:27 kursat/weblogs/2013-10-07.log\n-rw-r--r--   2 zeppelin hadoop     526754 2021-06-28 20:27 kursat/weblogs/2013-10-08.log\n-rw-r--r--   2 zeppelin hadoop     532931 2021-06-28 20:27 kursat/weblogs/2013-10-09.log\n-rw-r--r--   2 zeppelin hadoop     525057 2021-06-28 20:27 kursat/weblogs/2013-10-10.log\n-rw-r--r--   2 zeppelin hadoop     527589 2021-06-28 20:27 kursat/weblogs/2013-10-11.log\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624911263818_1767367111",
+      "id": "paragraph_1624911263818_1767367111",
+      "dateCreated": "2021-06-28T20:14:23+0000",
+      "dateStarted": "2021-06-28T20:28:09+0000",
+      "dateFinished": "2021-06-28T20:28:11+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6440",
+      "focus": true
+    },
+    {
+      "text": "%sh\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-28T20:27:01+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1624912021403_1500607851",
+      "id": "paragraph_1624912021403_1500607851",
+      "dateCreated": "2021-06-28T20:27:01+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:7051"
+    }
+  ],
+  "name": "kursat-de-project",
+  "id": "2GBTDQNUK",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/kursat-de-project"
+}
