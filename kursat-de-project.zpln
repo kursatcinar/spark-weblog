@@ -1,9 +1,45 @@
 ﻿{
   "paragraphs": [
     {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:43:14+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323236459_1220997011",
+      "id": "paragraph_1625323236459_1220997011",
+      "dateCreated": "2021-07-03T14:40:36+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:24601",
+      "title": "Copy the weblogs directory from the local filesystem to the /user/zeppelin/kursat/ HDFS directory"
+    },
+    {
       "text": "%sh\nls -lh",
       "user": "anonymous",
-      "dateUpdated": "2021-06-29T15:36:51+0000",
+      "dateUpdated": "2021-07-03T14:40:34+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -16,20 +52,12 @@
         "editorMode": "ace/mode/sh",
         "fontSize": 9,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "title": false
       },
       "settings": {
         "params": {},
         "forms": {}
-      },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "total 46M\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 18 20:42 airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 20 09:51 airlines.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 14:12 airlines.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 18:13 airlines.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 24 13:41 airlines.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 27 11:28 airlines.dat.5\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 18 20:42 airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 20 09:50 airports.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 14:11 airports.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 18:13 airports.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 24 13:41 airports.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 24 13:53 airports.dat.5\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 27 11:28 airports.dat.6\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 22 10:27 alper_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 22 10:27 alper_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 22 10:27 alper_routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 13:37 busra_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 13:37 busra_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 13:38 busra_routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 21 21:47 kursat_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 21 21:46 kursat_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 21 21:48 kursat_routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 25 12:25 mb_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 25 12:25 mb_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 25 12:25 mb_routes.dat\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jun 28 15:51 neslihan\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 14:29 nk_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 14:28 nk_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 14:29 nk_routes.dat\ndrwxr-xr-x 7 zeppelin zeppelin 4.0K May 15 20:37 notebook\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 18 20:43 routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 20 09:51 routes.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 14:12 routes.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 18:14 routes.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 24 13:42 routes.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 27 11:28 routes.dat.5\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jun 27 19:03 tuna\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 27 11:30 yy_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 27 11:29 yy_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 27 11:30 yy_routes.dat\n"
-          }
-        ]
       },
       "apps": [],
       "runtimeInfos": {},
@@ -37,9 +65,12 @@
       "jobName": "paragraph_1624981011605_423537360",
       "id": "paragraph_1624908259652_1254411860",
       "dateCreated": "2021-06-29T15:36:51+0000",
-      "status": "READY",
+      "status": "FINISHED",
       "focus": true,
-      "$$hashKey": "object:22607"
+      "$$hashKey": "object:22607",
+      "dateFinished": "2021-07-03T14:39:18+0000",
+      "dateStarted": "2021-07-03T14:39:18+0000",
+      "title": ""
     },
     {
       "text": "%sh\nmkdir kursatcinar",
@@ -264,7 +295,7 @@
     {
       "text": "%sh\nhdfs dfs -ls kursat/weblogs",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T10:43:30+0000",
+      "dateUpdated": "2021-07-03T14:48:57+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -298,15 +329,51 @@
       "jobName": "paragraph_1624981011606_1511543105",
       "id": "paragraph_1624911263818_1767367111",
       "dateCreated": "2021-06-29T15:36:51+0000",
-      "dateStarted": "2021-07-03T10:43:30+0000",
-      "dateFinished": "2021-07-03T10:43:33+0000",
+      "dateStarted": "2021-07-03T14:48:57+0000",
+      "dateFinished": "2021-07-03T14:48:59+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22614"
     },
     {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:43:16+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323314777_923453342",
+      "id": "paragraph_1625323314777_923453342",
+      "dateCreated": "2021-07-03T14:41:54+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:24806",
+      "title": "In spark, create an RDD from the uploaded web logs data files in the /kursat/weblogs/ directory in HDFS."
+    },
+    {
       "text": "%spark\nval logsRDD = sc.textFile(\"kursat/weblogs/\")",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:15:08+0000",
+      "dateUpdated": "2021-07-03T14:49:14+0000",
       "progress": 8,
       "config": {
         "editorSetting": {
@@ -338,7 +405,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "\u001b[1m\u001b[34mlogsRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[String]\u001b[0m = kursat/weblogs/ MapPartitionsRDD[112] at textFile at <console>:24\n"
+            "data": "\u001b[1m\u001b[34mlogsRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[String]\u001b[0m = kursat/weblogs/ MapPartitionsRDD[139] at textFile at <console>:24\n"
           }
         ]
       },
@@ -348,15 +415,51 @@
       "jobName": "paragraph_1625166904276_1651978166",
       "id": "paragraph_1625166904276_1651978166",
       "dateCreated": "2021-07-01T19:15:04+0000",
-      "dateStarted": "2021-07-03T14:15:08+0000",
-      "dateFinished": "2021-07-03T14:15:08+0000",
+      "dateStarted": "2021-07-03T14:49:15+0000",
+      "dateFinished": "2021-07-03T14:49:15+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22615"
     },
     {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:44:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323415122_1871894152",
+      "id": "paragraph_1625323415122_1871894152",
+      "dateCreated": "2021-07-03T14:43:35+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:24912",
+      "title": "Create an RDD containing only those lines that are requests for JPG files. Use the filter operation with a transformation function that takes a string RDD element and returns a boolean value"
+    },
+    {
       "text": "%spark\n//val jpgLogsRDD = logsRDD.keyBy(line => line.split(' ').take(7).last.split('.').last).filter{case (key, value) => key.toUpperCase == \"JPG\" || key.toUpperCase == \"JPEG\"}\nval jpgLogsRDD = logsRDD.keyBy(line => line.split(' ').take(7).last.split('.').last).flatMap{case (key, value) => if(key.toUpperCase == \"JPG\" || key.toUpperCase == \"JPEG\") Some(value) else None}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:15:11+0000",
+      "dateUpdated": "2021-07-03T14:49:18+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -380,7 +483,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "\u001b[1m\u001b[34mjpgLogsRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[String]\u001b[0m = MapPartitionsRDD[114] at flatMap at <console>:25\n"
+            "data": "\u001b[1m\u001b[34mjpgLogsRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[String]\u001b[0m = MapPartitionsRDD[141] at flatMap at <console>:25\n"
           }
         ]
       },
@@ -390,15 +493,51 @@
       "jobName": "paragraph_1625317068366_1823042205",
       "id": "paragraph_1625317068366_1823042205",
       "dateCreated": "2021-07-03T12:57:48+0000",
-      "dateStarted": "2021-07-03T14:15:11+0000",
-      "dateFinished": "2021-07-03T14:15:11+0000",
+      "dateStarted": "2021-07-03T14:49:18+0000",
+      "dateFinished": "2021-07-03T14:49:18+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22616"
     },
     {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:44:38+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323464137_1707709143",
+      "id": "paragraph_1625323464137_1707709143",
+      "dateCreated": "2021-07-03T14:44:24+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25004",
+      "title": "Use take to return the first five lines of the data in jpglogsRDD. The return value is a list of strings (in Python) or array of strings (in Scala)"
+    },
+    {
       "text": "%spark\njpgLogsRDD.take(5)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:15:13+0000",
+      "dateUpdated": "2021-07-03T14:49:20+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -422,7 +561,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "\u001b[1m\u001b[34mres81\u001b[0m: \u001b[1m\u001b[32mArray[String]\u001b[0m = Array(191.156.2.90 - 41110 [20/Sep/2013:23:53:46 +0100] \"GET /titanic_1100.jpg HTTP/1.0\" 200 5763 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Titanic 1100\", 228.193.39.234 - 33657 [20/Sep/2013:23:52:48 +0100] \"GET /titanic_deckchairs.jpg HTTP/1.0\" 200 13992 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Sorrento F01L\", 161.241.216.27 - 27349 [20/Sep/2013:23:47:32 +0100] \"GET /sorrento_f32l.jpg HTTP/1.0\" 200 17582 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Ronin Novelty Note 1\", 197.33.119.44 - 58503 [20/Sep/2013:23:18:01 +0100] \"GET /ronin_novelty_note_4.jpg HTTP/1.0\" 200 3360 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Titanic 1100\", 98.148.48.55 - 96154 [20/Sep/2013:23:14:05 +0100] \"GET /meetoo_4.0.jpg HTTP...\n"
+            "data": "\u001b[1m\u001b[34mres119\u001b[0m: \u001b[1m\u001b[32mArray[String]\u001b[0m = Array(191.156.2.90 - 41110 [20/Sep/2013:23:53:46 +0100] \"GET /titanic_1100.jpg HTTP/1.0\" 200 5763 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Titanic 1100\", 228.193.39.234 - 33657 [20/Sep/2013:23:52:48 +0100] \"GET /titanic_deckchairs.jpg HTTP/1.0\" 200 13992 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Sorrento F01L\", 161.241.216.27 - 27349 [20/Sep/2013:23:47:32 +0100] \"GET /sorrento_f32l.jpg HTTP/1.0\" 200 17582 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Ronin Novelty Note 1\", 197.33.119.44 - 58503 [20/Sep/2013:23:18:01 +0100] \"GET /ronin_novelty_note_4.jpg HTTP/1.0\" 200 3360 \"http://www.loudacre.com\"  \"Loudacre Mobile Browser Titanic 1100\", 98.148.48.55 - 96154 [20/Sep/2013:23:14:05 +0100] \"GET /meetoo_4.0.jpg HTT...\n"
           }
         ]
       },
@@ -435,8 +574,8 @@
           "group": "spark",
           "values": [
             {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=76",
-              "$$hashKey": "object:23609"
+              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=101",
+              "$$hashKey": "object:26002"
             }
           ],
           "interpreterSettingId": "spark"
@@ -446,15 +585,51 @@
       "jobName": "paragraph_1625309246687_1024325261",
       "id": "paragraph_1625309246687_1024325261",
       "dateCreated": "2021-07-03T10:47:26+0000",
-      "dateStarted": "2021-07-03T14:15:13+0000",
-      "dateFinished": "2021-07-03T14:15:13+0000",
+      "dateStarted": "2021-07-03T14:49:20+0000",
+      "dateFinished": "2021-07-03T14:49:21+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22617"
     },
     {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:45:12+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323481583_1262378817",
+      "id": "paragraph_1625323481583_1262378817",
+      "dateCreated": "2021-07-03T14:44:41+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25094",
+      "title": "Loop through and display the strings returned by take."
+    },
+    {
       "text": "%spark\nfor (line <- jpgLogsRDD.take(5)) println(line)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:15:16+0000",
+      "dateUpdated": "2021-07-03T14:49:23+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -491,8 +666,8 @@
           "group": "spark",
           "values": [
             {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=77",
-              "$$hashKey": "object:23667"
+              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=102",
+              "$$hashKey": "object:26042"
             }
           ],
           "interpreterSettingId": "spark"
@@ -502,15 +677,51 @@
       "jobName": "paragraph_1625309244209_996395104",
       "id": "paragraph_1625309244209_996395104",
       "dateCreated": "2021-07-03T10:47:24+0000",
-      "dateStarted": "2021-07-03T14:15:16+0000",
-      "dateFinished": "2021-07-03T14:15:16+0000",
+      "dateStarted": "2021-07-03T14:49:23+0000",
+      "dateFinished": "2021-07-03T14:49:23+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22618"
     },
     {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:45:35+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323518682_447250832",
+      "id": "paragraph_1625323518682_447250832",
+      "dateCreated": "2021-07-03T14:45:18+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25187",
+      "title": "Now try using the map transformation to define a new RDD. Start with a simple map function that returns the length of each line in the log file. This results in an RDD of integers"
+    },
+    {
       "text": "%spark\nval lineLengthsRDD = logsRDD.map(line => line.length).collect()",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:15:24+0000",
+      "dateUpdated": "2021-07-03T14:49:27+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -547,8 +758,8 @@
           "group": "spark",
           "values": [
             {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=78",
-              "$$hashKey": "object:23725"
+              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=103",
+              "$$hashKey": "object:26086"
             }
           ],
           "interpreterSettingId": "spark"
@@ -558,15 +769,51 @@
       "jobName": "paragraph_1625309247880_1199061096",
       "id": "paragraph_1625309247880_1199061096",
       "dateCreated": "2021-07-03T10:47:27+0000",
-      "dateStarted": "2021-07-03T14:15:24+0000",
-      "dateFinished": "2021-07-03T14:15:24+0000",
+      "dateStarted": "2021-07-03T14:49:27+0000",
+      "dateFinished": "2021-07-03T14:49:27+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22619"
     },
     {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:46:06+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323560725_1153124197",
+      "id": "paragraph_1625323560725_1153124197",
+      "dateCreated": "2021-07-03T14:46:00+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25337",
+      "title": "Loop through and display the first five elements (integers) in the RDD."
+    },
+    {
       "text": "%spark\nfor (line <- lineLengthsRDD.take(5)) println(line)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:15:55+0000",
+      "dateUpdated": "2021-07-03T14:49:29+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -600,15 +847,51 @@
       "jobName": "paragraph_1625309249932_1262232942",
       "id": "paragraph_1625309249932_1262232942",
       "dateCreated": "2021-07-03T10:47:29+0000",
-      "dateStarted": "2021-07-03T14:15:55+0000",
-      "dateFinished": "2021-07-03T14:15:56+0000",
+      "dateStarted": "2021-07-03T14:49:29+0000",
+      "dateFinished": "2021-07-03T14:49:30+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22620"
     },
     {
-      "text": "%spark\nval lineFieldsRDD = logsRDD.map(line => line.split(' '))\n\nlineFieldsRDD.take(5)",
+      "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:29:55+0000",
+      "dateUpdated": "2021-07-03T14:46:25+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323570350_2027388494",
+      "id": "paragraph_1625323570350_2027388494",
+      "dateCreated": "2021-07-03T14:46:10+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25430",
+      "title": "Calculating line lengths is not very useful. Instead, try mapping each string in logsRDD by splitting the strings based on spaces. The result will be an RDD in which each element is a list of strings (in Python) or an array of strings (in Scala). Each string represents a “field” in the web log line."
+    },
+    {
+      "text": "%spark\nval lineFieldsRDD = logsRDD.map(line => line.split(' '))",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:49:32+0000",
       "progress": 17,
       "config": {
         "editorSetting": {
@@ -632,9 +915,78 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "\u001b[1m\u001b[34mlineFieldsRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[Array[String]]\u001b[0m = MapPartitionsRDD[121] at map at <console>:25\n\u001b[1m\u001b[34mres104\u001b[0m: \u001b[1m\u001b[32mArray[Array[String]]\u001b[0m = Array(Array(152.248.182.216, -, 105, [20/Sep/2013:23:59:37, +0100], \"GET, /KBDOC-00211.html, HTTP/1.0\", 200, 5850, \"http://www.loudacre.com\", \"\", \"Loudacre, CSR, Browser\"), Array(152.248.182.216, -, 105, [20/Sep/2013:23:59:37, +0100], \"GET, /theme.css, HTTP/1.0\", 200, 11646, \"http://www.loudacre.com\", \"\", \"Loudacre, CSR, Browser\"), Array(103.248.28.233, -, 145, [20/Sep/2013:23:58:51, +0100], \"GET, /KBDOC-00005.html, HTTP/1.0\", 200, 13725, \"http://www.loudacre.com\", \"\", \"Loudacre, CSR, Browser\"), Array(103.248.28.233, -, 145, [20/Sep/2013:23:58:51, +0100], \"GET, /theme.css, HTTP/1.0\", 200, 4289, \"http://ww...\n"
+            "data": "\u001b[1m\u001b[34mlineFieldsRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[Array[String]]\u001b[0m = MapPartitionsRDD[143] at map at <console>:24\n"
           }
         ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625321755930_1595131611",
+      "id": "paragraph_1625321755930_1595131611",
+      "dateCreated": "2021-07-03T14:15:55+0000",
+      "dateStarted": "2021-07-03T14:49:33+0000",
+      "dateFinished": "2021-07-03T14:49:33+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:22621"
+    },
+    {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:47:56+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323639108_1395099683",
+      "id": "paragraph_1625323639108_1395099683",
+      "dateCreated": "2021-07-03T14:47:19+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25637",
+      "title": "Return the first five elements of lineFieldsRDD. The result will be a list of lists of strings (in Python) or an array of arrays of strings (in Scala)."
+    },
+    {
+      "text": "%spark\nlineFieldsRDD.take(5)",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:49:38+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
       },
       "apps": [],
       "runtimeInfos": {
@@ -645,26 +997,72 @@
           "group": "spark",
           "values": [
             {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=83",
-              "$$hashKey": "object:23835"
+              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=105",
+              "$$hashKey": "object:26180"
             }
           ],
           "interpreterSettingId": "spark"
         }
       },
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1625321755930_1595131611",
-      "id": "paragraph_1625321755930_1595131611",
-      "dateCreated": "2021-07-03T14:15:55+0000",
-      "dateStarted": "2021-07-03T14:29:55+0000",
-      "dateFinished": "2021-07-03T14:29:55+0000",
+      "jobName": "paragraph_1625323624897_797039651",
+      "id": "paragraph_1625323624897_797039651",
+      "dateCreated": "2021-07-03T14:47:04+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:22621"
+      "focus": true,
+      "$$hashKey": "object:25520",
+      "dateFinished": "2021-07-03T14:49:38+0000",
+      "dateStarted": "2021-07-03T14:49:38+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mres123\u001b[0m: \u001b[1m\u001b[32mArray[Array[String]]\u001b[0m = Array(Array(152.248.182.216, -, 105, [20/Sep/2013:23:59:37, +0100], \"GET, /KBDOC-00211.html, HTTP/1.0\", 200, 5850, \"http://www.loudacre.com\", \"\", \"Loudacre, CSR, Browser\"), Array(152.248.182.216, -, 105, [20/Sep/2013:23:59:37, +0100], \"GET, /theme.css, HTTP/1.0\", 200, 11646, \"http://www.loudacre.com\", \"\", \"Loudacre, CSR, Browser\"), Array(103.248.28.233, -, 145, [20/Sep/2013:23:58:51, +0100], \"GET, /KBDOC-00005.html, HTTP/1.0\", 200, 13725, \"http://www.loudacre.com\", \"\", \"Loudacre, CSR, Browser\"), Array(103.248.28.233, -, 145, [20/Sep/2013:23:58:51, +0100], \"GET, /theme.css, HTTP/1.0\", 200, 4289, \"http://www.loudacre.com\", \"\", \"Loudacre, CSR, Browser\"), Array(55.197.134.74, -, 2306, [20/Sep/2013:23:57:54, +0100], \"GET, /KBDOC-00054....\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:48:12+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323683747_2146309562",
+      "id": "paragraph_1625323683747_2146309562",
+      "dateCreated": "2021-07-03T14:48:03+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25727",
+      "title": "Display the contents of the return from take. Unlike in examples above, which returned collections of simple values (strings and ints), this time you have a set of compound values (arrays or lists containing strings). Therefore, to display them properly, you will need to loop through the arrays/lists in lineFields, and then loop through each string in the array/list. To make it easier to read the output, use ------- to separate each set of field values."
     },
     {
       "text": "%spark\nfor (line <- lineFieldsRDD.take(5).take(20)) {\n  for (field <- line.take(20)) {\n    println(field)\n  }\n  println(\"------------------------------------------\")\n}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:32:23+0000",
+      "dateUpdated": "2021-07-03T14:49:41+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -701,8 +1099,8 @@
           "group": "spark",
           "values": [
             {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=90",
-              "$$hashKey": "object:24073"
+              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=106",
+              "$$hashKey": "object:26211"
             }
           ],
           "interpreterSettingId": "spark"
@@ -712,15 +1110,51 @@
       "jobName": "paragraph_1625321922932_415119372",
       "id": "paragraph_1625321922932_415119372",
       "dateCreated": "2021-07-03T14:18:42+0000",
-      "dateStarted": "2021-07-03T14:32:23+0000",
-      "dateFinished": "2021-07-03T14:32:23+0000",
+      "dateStarted": "2021-07-03T14:49:41+0000",
+      "dateFinished": "2021-07-03T14:49:41+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22622"
     },
     {
-      "text": "%spark\nval ipAddressesRDD = logsRDD.flatMap(line => line.split(' ').take(1)).collect()",
+      "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:34:54+0000",
+      "dateUpdated": "2021-07-03T14:48:29+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625323698091_340470928",
+      "id": "paragraph_1625323698091_340470928",
+      "dateCreated": "2021-07-03T14:48:18+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:25817",
+      "title": "Now that you know how map works, create a new RDD containing just the IP addresses from each line in the log file. (The IP address is the first space-delimited field in each line.)"
+    },
+    {
+      "text": "%spark\nval ipAddressesRDD = logsRDD.flatMap(line => line.split(' ').take(1)) //.distinct\n\nfor (ip <- ipAddressesRDD.take(15)) println(ip)",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-03T14:49:47+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -748,8 +1182,8 @@
           "group": "spark",
           "values": [
             {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=92",
-              "$$hashKey": "object:24217"
+              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:43249/jobs/job?id=107",
+              "$$hashKey": "object:26242"
             }
           ],
           "interpreterSettingId": "spark"
@@ -761,49 +1195,17 @@
       "dateCreated": "2021-07-03T14:19:29+0000",
       "status": "FINISHED",
       "$$hashKey": "object:22623",
-      "dateFinished": "2021-07-03T14:34:55+0000",
-      "dateStarted": "2021-07-03T14:34:54+0000",
+      "dateFinished": "2021-07-03T14:49:47+0000",
+      "dateStarted": "2021-07-03T14:49:47+0000",
       "results": {
         "code": "SUCCESS",
         "msg": [
           {
             "type": "TEXT",
-            "data": "\u001b[1m\u001b[34mipAddressesRDD\u001b[0m: \u001b[1m\u001b[32mArray[String]\u001b[0m = Array(152.248.182.216, 152.248.182.216, 103.248.28.233, 103.248.28.233, 55.197.134.74, 55.197.134.74, 147.156.102.13, 147.156.102.13, 191.156.2.90, 191.156.2.90, 191.156.2.90, 191.156.2.90, 228.193.39.234, 228.193.39.234, 228.193.39.234, 228.193.39.234, 94.70.130.79, 94.70.130.79, 74.139.30.14, 74.139.30.14, 161.241.216.27, 161.241.216.27, 161.241.216.27, 161.241.216.27, 120.252.205.111, 120.252.205.111, 233.26.54.210, 233.26.54.210, 162.150.152.75, 162.150.152.75, 119.165.19.92, 119.165.19.92, 234.37.160.124, 234.37.160.124, 206.23.164.232, 206.23.164.232, 44.38.101.65, 44.38.101.65, 121.28.144.72, 121.28.144.72, 212.116.27.255, 212.116.27.255, 2.214.9.227, 2.214.9.227, 237.225.49.48, 237.225.49.48, 9.199.190.28, 9.199.190.28, 1...\n"
+            "data": "152.248.182.216\n152.248.182.216\n103.248.28.233\n103.248.28.233\n55.197.134.74\n55.197.134.74\n147.156.102.13\n147.156.102.13\n191.156.2.90\n191.156.2.90\n191.156.2.90\n191.156.2.90\n228.193.39.234\n228.193.39.234\n228.193.39.234\n\u001b[1m\u001b[34mipAddressesRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[String]\u001b[0m = MapPartitionsRDD[144] at flatMap at <console>:25\n"
           }
         ]
       }
-    },
-    {
-      "text": "%spark\n",
-      "user": "anonymous",
-      "dateUpdated": "2021-07-03T14:34:18+0000",
-      "progress": 0,
-      "config": {
-        "colWidth": 12,
-        "fontSize": 9,
-        "enabled": true,
-        "results": {},
-        "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false,
-          "completionKey": "TAB",
-          "completionSupport": true
-        },
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "runtimeInfos": {},
-      "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1625322858629_1597555289",
-      "id": "paragraph_1625322858629_1597555289",
-      "dateCreated": "2021-07-03T14:34:18+0000",
-      "status": "READY",
-      "focus": true,
-      "$$hashKey": "object:24078"
     }
   ],
   "name": "kursat-de-project",
