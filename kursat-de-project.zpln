@@ -4,7 +4,7 @@
       "title": "Copy the weblogs directory from the local filesystem to the /user/zeppelin/kursat/ HDFS directory",
       "text": "",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -29,18 +29,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_1947547019",
+      "jobName": "paragraph_1627249490614_1092119216",
       "id": "paragraph_1625323236459_1220997011",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
       "focus": true,
-      "$$hashKey": "object:11940"
+      "$$hashKey": "object:48280"
     },
     {
       "title": "",
       "text": "%sh\nls -lh",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:51:27+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -60,19 +60,30 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "total 80M\ndrwxr-xr-x 4 zeppelin zeppelin 4.0K Jul  5 14:03 Join\n-rw-r--r-- 1 zeppelin zeppelin  18M Jul 23 13:16 accounts.csv\n-rw-r--r-- 1 zeppelin zeppelin  18M Jul  9 11:38 accounts.csv?token=AMUJSPWCM4Q62N23JX4CDG3A6FXJM\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 18 20:42 airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 20 09:51 airlines.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 14:12 airlines.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 18:13 airlines.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 24 13:41 airlines.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 27 11:28 airlines.dat.5\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 18 20:42 airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 20 09:50 airports.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 14:11 airports.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 18:13 airports.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 24 13:41 airports.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 24 13:53 airports.dat.5\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 27 11:28 airports.dat.6\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 22 10:27 alper_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 22 10:27 alper_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 22 10:27 alper_routes.dat\ndrwxrwxrwx 3 zeppelin zeppelin 4.0K Jul  2 12:45 alperonal\ndrwxr-xr-x 4 zeppelin zeppelin 4.0K Jul  3 09:06 busra\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 23 13:37 busra_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 23 13:37 busra_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 13:38 busra_routes.dat\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jul  3 09:11 busraturker\n-rwxr-xr-x 1 zeppelin zeppelin 2.9K Jul  2 17:36 haber.txt\n-rw-r--r-- 1 zeppelin zeppelin 2.2K Jul  2 17:35 habertuna.txt\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 21 21:47 kursat_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 21 21:46 kursat_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 21 21:48 kursat_routes.dat\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jul 23 13:18 kursatcinar\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 25 12:25 mb_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 25 12:25 mb_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 25 12:25 mb_routes.dat\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jun 28 15:51 neslihan\n-rw-r--r-- 1 zeppelin zeppelin 388K Jul  7 09:05 nk_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jul  7 09:05 nk_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jul  7 09:05 nk_routes.dat\ndrwxr-xr-x 7 zeppelin zeppelin 4.0K May 15 20:37 notebook\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jul  2 16:11 ramazan\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 18 20:43 routes.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 20 09:51 routes.dat.1\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 14:12 routes.dat.2\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 23 18:14 routes.dat.3\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 24 13:42 routes.dat.4\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 27 11:28 routes.dat.5\ndrwxr-xr-x 2 zeppelin zeppelin 4.0K Jul 16 11:53 test\ndrwxr-xr-x 3 zeppelin zeppelin 4.0K Jun 27 19:03 tuna\ndrwxr-xr-x 4 zeppelin zeppelin 4.0K Jul  3 12:51 weblog\n-rw-r--r-- 1 zeppelin zeppelin 388K Jun 27 11:30 yy_airlines.dat\n-rw-r--r-- 1 zeppelin zeppelin 1.1M Jun 27 11:29 yy_airports.dat\n-rw-r--r-- 1 zeppelin zeppelin 2.3M Jun 27 11:30 yy_routes.dat\n"
+          }
+        ]
+      },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_6872659",
+      "jobName": "paragraph_1627249490614_2072868974",
       "id": "paragraph_1624908259652_1254411860",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "status": "READY",
-      "$$hashKey": "object:11941"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "dateStarted": "2021-07-25T21:51:27+0000",
+      "dateFinished": "2021-07-25T21:51:27+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:48281"
     },
     {
       "text": "%sh\nmkdir kursatcinar",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -98,16 +109,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_1303580290",
+      "jobName": "paragraph_1627249490614_669732146",
       "id": "paragraph_1624908406276_2147206824",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11942"
+      "$$hashKey": "object:48282"
     },
     {
       "text": "%sh\ngit clone https://github.com/kursatcinar/spark-weblog.git",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -138,16 +149,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_671604157",
+      "jobName": "paragraph_1627249490614_101253712",
       "id": "paragraph_1624908574155_1421683102",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11943"
+      "$$hashKey": "object:48283"
     },
     {
       "text": "%sh\nmv spark-weblog kursatcinar/",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -173,16 +184,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_639596393",
+      "jobName": "paragraph_1627249490614_433204726",
       "id": "paragraph_1624911140308_1895525064",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11944"
+      "$$hashKey": "object:48284"
     },
     {
       "text": "%sh\nls kursatcinar/spark-weblog/weblog/",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:51:48+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -213,16 +224,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_1648285599",
+      "jobName": "paragraph_1627249490614_730699002",
       "id": "paragraph_1624911239320_680726621",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "status": "READY",
-      "$$hashKey": "object:11945"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "dateStarted": "2021-07-25T21:51:48+0000",
+      "dateFinished": "2021-07-25T21:51:48+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:48285"
     },
     {
       "text": "%sh\nhdfs dfs -mkdir kursat/weblogs",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -248,16 +261,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_1255198119",
+      "jobName": "paragraph_1627249490614_896954776",
       "id": "paragraph_1624911883968_518104470",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11946"
+      "$$hashKey": "object:48286"
     },
     {
       "text": "%sh\nhdfs dfs -put kursatcinar/spark-weblog/weblog/* kursat/weblogs/",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -283,16 +296,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_762605986",
+      "jobName": "paragraph_1627249490614_108378941",
       "id": "paragraph_1624911957486_87473581",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11947"
+      "$$hashKey": "object:48287"
     },
     {
       "text": "%sh\nhdfs dfs -ls kursat/weblogs",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:50:58+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -323,17 +336,19 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_2064547354",
+      "jobName": "paragraph_1627249490614_1110116835",
       "id": "paragraph_1624911263818_1767367111",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "status": "READY",
-      "$$hashKey": "object:11948"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "dateStarted": "2021-07-25T21:50:58+0000",
+      "dateFinished": "2021-07-25T21:51:01+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:48288"
     },
     {
       "title": "In spark, create an RDD from the uploaded web logs data files in the /kursat/weblogs/ directory in HDFS.",
       "text": "",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -358,16 +373,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_2142198626",
+      "jobName": "paragraph_1627249490614_1997872060",
       "id": "paragraph_1625323314777_923453342",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11949"
+      "$$hashKey": "object:48289"
     },
     {
       "text": "%spark\nval logsRDD = sc.textFile(\"kursat/weblogs/\")",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:52:25+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -406,17 +421,19 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_7523823",
+      "jobName": "paragraph_1627249490614_1462347147",
       "id": "paragraph_1625166904276_1651978166",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "status": "READY",
-      "$$hashKey": "object:11950"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "dateStarted": "2021-07-25T21:52:25+0000",
+      "dateFinished": "2021-07-25T21:52:44+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:48290"
     },
     {
       "title": "Create an RDD containing only those lines that are requests for JPG files. Use the filter operation with a transformation function that takes a string RDD element and returns a boolean value",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -441,16 +458,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_229370716",
+      "jobName": "paragraph_1627249490614_2019696505",
       "id": "paragraph_1625323415122_1871894152",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11951"
+      "$$hashKey": "object:48291"
     },
     {
       "text": "%spark\n//val jpgLogsRDD = logsRDD.keyBy(line => line.split(' ').take(7).last.split('.').last).filter{case (key, value) => key.toUpperCase == \"JPG\" || key.toUpperCase == \"JPEG\"}\nval jpgLogsRDD = logsRDD.keyBy(line => line.split(' ').take(7).last.split('.').last).flatMap{case (key, value) => if(key.toUpperCase == \"JPG\" || key.toUpperCase == \"JPEG\") Some(value) else None}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -481,17 +498,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_612830020",
+      "jobName": "paragraph_1627249490614_604340048",
       "id": "paragraph_1625317068366_1823042205",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11952"
+      "$$hashKey": "object:48292"
     },
     {
       "title": "Use take to return the first five lines of the data in jpglogsRDD. The return value is a list of strings (in Python) or array of strings (in Scala)",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -516,16 +533,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_35849748",
+      "jobName": "paragraph_1627249490614_160045387",
       "id": "paragraph_1625323464137_1707709143",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11953"
+      "$$hashKey": "object:48293"
     },
     {
       "text": "%spark\njpgLogsRDD.take(5)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -556,17 +573,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_128854950",
+      "jobName": "paragraph_1627249490614_5517082",
       "id": "paragraph_1625309246687_1024325261",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11954"
+      "$$hashKey": "object:48294"
     },
     {
       "title": "Loop through and display the strings returned by take.",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -591,16 +608,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_579746082",
+      "jobName": "paragraph_1627249490615_1060223365",
       "id": "paragraph_1625323481583_1262378817",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11955"
+      "$$hashKey": "object:48295"
     },
     {
       "text": "%spark\nfor (line <- jpgLogsRDD.take(5)) println(line)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -631,17 +648,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_1308259012",
+      "jobName": "paragraph_1627249490615_1714992999",
       "id": "paragraph_1625309244209_996395104",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11956"
+      "$$hashKey": "object:48296"
     },
     {
       "title": "Now try using the map transformation to define a new RDD. Start with a simple map function that returns the length of each line in the log file. This results in an RDD of integers",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -666,16 +683,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_374685221",
+      "jobName": "paragraph_1627249490615_564446547",
       "id": "paragraph_1625323518682_447250832",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11957"
+      "$$hashKey": "object:48297"
     },
     {
       "text": "%spark\nval lineLengthsRDD = logsRDD.map(line => line.length).collect()",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -706,17 +723,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_94204521",
+      "jobName": "paragraph_1627249490615_458019616",
       "id": "paragraph_1625309247880_1199061096",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11958"
+      "$$hashKey": "object:48298"
     },
     {
       "title": "Loop through and display the first five elements (integers) in the RDD.",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -741,16 +758,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_895543950",
+      "jobName": "paragraph_1627249490615_559766313",
       "id": "paragraph_1625323560725_1153124197",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11959"
+      "$$hashKey": "object:48299"
     },
     {
       "text": "%spark\nfor (line <- lineLengthsRDD.take(5)) println(line)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -781,17 +798,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_873728022",
+      "jobName": "paragraph_1627249490615_2107264761",
       "id": "paragraph_1625309249932_1262232942",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11960"
+      "$$hashKey": "object:48300"
     },
     {
       "title": "Calculating line lengths is not very useful. Instead, try mapping each string in logsRDD by splitting the strings based on spaces. The result will be an RDD in which each element is a list of strings (in Python) or an array of strings (in Scala). Each string represents a “field” in the web log line.",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -816,16 +833,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_1968919824",
+      "jobName": "paragraph_1627249490615_462608322",
       "id": "paragraph_1625323570350_2027388494",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11961"
+      "$$hashKey": "object:48301"
     },
     {
       "text": "%spark\nval lineFieldsRDD = logsRDD.map(line => line.split(' '))",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -856,17 +873,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_462303024",
+      "jobName": "paragraph_1627249490615_1772520418",
       "id": "paragraph_1625321755930_1595131611",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11962"
+      "$$hashKey": "object:48302"
     },
     {
       "title": "Return the first five elements of lineFieldsRDD. The result will be a list of lists of strings (in Python) or an array of arrays of strings (in Scala).",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -891,16 +908,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_6750153",
+      "jobName": "paragraph_1627249490615_1493726325",
       "id": "paragraph_1625323639108_1395099683",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11963"
+      "$$hashKey": "object:48303"
     },
     {
       "text": "%spark\nlineFieldsRDD.take(5)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -931,17 +948,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955219_1628926528",
+      "jobName": "paragraph_1627249490615_963649006",
       "id": "paragraph_1625323624897_797039651",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11964"
+      "$$hashKey": "object:48304"
     },
     {
       "title": "Display the contents of the return from take. Unlike in examples above, which returned collections of simple values (strings and ints), this time you have a set of compound values (arrays or lists containing strings). Therefore, to display them properly, you will need to loop through the arrays/lists in lineFields, and then loop through each string in the array/list. To make it easier to read the output, use ------- to separate each set of field values.",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -966,16 +983,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_915025742",
+      "jobName": "paragraph_1627249490615_655014445",
       "id": "paragraph_1625323683747_2146309562",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11965"
+      "$$hashKey": "object:48305"
     },
     {
       "text": "%spark\nfor (line <- lineFieldsRDD.take(5).take(20)) {\n  for (field <- line.take(20)) {\n    println(field)\n  }\n  println(\"------------------------------------------\")\n}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1006,17 +1023,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1434694171",
+      "jobName": "paragraph_1627249490615_1660616628",
       "id": "paragraph_1625321922932_415119372",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11966"
+      "$$hashKey": "object:48306"
     },
     {
       "title": "Now that you know how map works, create a new RDD containing just the IP addresses from each line in the log file. (The IP address is the first space-delimited field in each line.)",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -1041,16 +1058,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_2133420152",
+      "jobName": "paragraph_1627249490615_201432479",
       "id": "paragraph_1625323698091_340470928",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11967"
+      "$$hashKey": "object:48307"
     },
     {
       "text": "%spark\nval ipAddressesRDD = logsRDD.flatMap(line => line.split(' ').take(1)) //.distinct\n\nfor (ip <- ipAddressesRDD.take(15)) println(ip)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1081,17 +1098,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1196166833",
+      "jobName": "paragraph_1627249490615_72797117",
       "id": "paragraph_1625321969854_15088748",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11968"
+      "$$hashKey": "object:48308"
     },
     {
       "title": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1119,17 +1136,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_2021021630",
+      "jobName": "paragraph_1627249490615_2000123057",
       "id": "paragraph_1626605964953_1575434257",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11969"
+      "$$hashKey": "object:48309"
     },
     {
       "title": "Create an RDD based on a subset of weblogs (those ending in digit 6)",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1153,16 +1170,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1855535764",
+      "jobName": "paragraph_1627249490615_422998587",
       "id": "paragraph_1626605947453_223873095",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11970"
+      "$$hashKey": "object:48310"
     },
     {
       "text": "%spark\nval logsEndingWith6RDD = sc.textFile(\"kursat/weblogs/*6.log\")",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1193,17 +1210,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_107422327",
+      "jobName": "paragraph_1627249490615_682939286",
       "id": "paragraph_1626602253131_1537531523",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11971"
+      "$$hashKey": "object:48311"
     },
     {
       "title": "Show the count frequencies",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1227,16 +1244,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_19536567",
+      "jobName": "paragraph_1627249490615_1974229377",
       "id": "paragraph_1626606037722_59841620",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11972"
+      "$$hashKey": "object:48312"
     },
     {
       "text": "%spark\nlogsEndingWith6RDD.count",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1267,17 +1284,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1513962092",
+      "jobName": "paragraph_1627249490615_1228574957",
       "id": "paragraph_1627043543717_1609458934",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11973"
+      "$$hashKey": "object:48313"
     },
     {
       "title": "Group IPs by user ID",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1305,16 +1322,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_423008181",
+      "jobName": "paragraph_1627249490615_1508458166",
       "id": "paragraph_1627044262503_1482779252",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11974"
+      "$$hashKey": "object:48314"
     },
     {
       "text": "%spark\nlogsEndingWith6RDD.take(10).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1345,16 +1362,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_272954310",
+      "jobName": "paragraph_1627249490615_768032294",
       "id": "paragraph_1627044415363_1054727523",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11975"
+      "$$hashKey": "object:48315"
     },
     {
       "text": "%spark\nval ipGroupsByID = logsEndingWith6RDD.map(line => line.split(' ')).map(field => (field(2), field(0))).groupByKey",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1385,16 +1402,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1655075343",
+      "jobName": "paragraph_1627249490615_211965869",
       "id": "paragraph_1627044446659_1305304160",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11976"
+      "$$hashKey": "object:48316"
     },
     {
       "text": "%spark\nipGroupsByID.take(20).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1425,17 +1442,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_54972030",
+      "jobName": "paragraph_1627249490615_2037362207",
       "id": "paragraph_1627044610782_1164656339",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11977"
+      "$$hashKey": "object:48317"
     },
     {
       "title": "Map account data to (userid,[values...])",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1463,16 +1480,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_297998298",
+      "jobName": "paragraph_1627249490615_1350660274",
       "id": "paragraph_1627044810733_2089411504",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11978"
+      "$$hashKey": "object:48318"
     },
     {
       "text": "%sh\nwget --output-document=kursatcinar/accounts.csv https://github.com/kursatcinar/spark-weblog/raw/main/join/kaynak/accounts.csv\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1503,16 +1520,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_2061002025",
+      "jobName": "paragraph_1627249490615_484224323",
       "id": "paragraph_1627045037959_1967996133",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11979"
+      "$$hashKey": "object:48319"
     },
     {
       "text": "%sh\nhdfs dfs -put /var/lib/zeppelin/kursatcinar/accounts.csv kursat/accounts.csv",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1538,16 +1555,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_366673718",
+      "jobName": "paragraph_1627249490616_1306575343",
       "id": "paragraph_1627049855793_1260913498",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11980"
+      "$$hashKey": "object:48320"
     },
     {
       "text": "%spark\nval accountsRDD=sc.textFile(\"/user/zeppelin/kursat/accounts.csv\").keyBy(s => s.split(',')(8))\n//val accountsRDD=sc.textFile(\"/user/zeppelin/kursat/accounts.csv\").map(line => line.split(',')).map(field => (field(8), (field(0),field(1),field(2),field(3),field(4),field(5),field(6),field(7),field(9),field(10),field(11)))).distinct().groupByKey\n//val accountsRDD=sc.textFile(\"/user/zeppelin/kursat/accounts.csv\").map(line=>line.split(\",\")).map(f=>(f(8),f(3),f(4))).keyBy{case(x,y,z) => x}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:16:01+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1578,18 +1595,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1219176386",
+      "jobName": "paragraph_1627249490616_1332316881",
       "id": "paragraph_1627049865466_837284045",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:11981",
-      "dateFinished": "2021-07-25T21:16:02+0000",
-      "dateStarted": "2021-07-25T21:16:01+0000"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48321"
     },
     {
       "text": "%spark\naccountsRDD.take(10).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:16:16+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1618,35 +1633,19 @@
         ]
       },
       "apps": [],
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:46855/jobs/job?id=47",
-              "$$hashKey": "object:16244"
-            }
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
+      "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_18115014",
+      "jobName": "paragraph_1627249490616_995313164",
       "id": "paragraph_1627050573164_351687202",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:11982",
-      "dateFinished": "2021-07-25T21:16:16+0000",
-      "dateStarted": "2021-07-25T21:16:16+0000"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48322"
     },
     {
       "title": "Join account data with userreqs then merge hit count into valuelist",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1674,16 +1673,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1717765634",
+      "jobName": "paragraph_1627249490616_610633664",
       "id": "paragraph_1627051343232_1809478100",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11983"
+      "$$hashKey": "object:48323"
     },
     {
       "text": "%spark\nval hitCountsByID = ipGroupsByID.map{case(x,y) => (x, y.size)}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1714,16 +1713,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_346393459",
+      "jobName": "paragraph_1627249490616_1560200854",
       "id": "paragraph_1627052872965_1188190581",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11984"
+      "$$hashKey": "object:48324"
     },
     {
       "text": "%spark\nhitCountsByID.take(20).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T18:49:15+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1754,16 +1753,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_49617955",
+      "jobName": "paragraph_1627249490616_1499580499",
       "id": "paragraph_1627053122281_107925586",
-      "dateCreated": "2021-07-25T18:49:15+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11985"
+      "$$hashKey": "object:48325"
     },
     {
       "text": "%spark\nval joinRDD = hitCountsByID.join(accountsRDD)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T20:45:10+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1794,19 +1793,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_210456332",
+      "jobName": "paragraph_1627249490616_1976820300",
       "id": "paragraph_1627053136674_1436125607",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "dateStarted": "2021-07-25T20:45:10+0000",
-      "dateFinished": "2021-07-25T20:45:10+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:11986"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48326"
     },
     {
       "text": "%spark\n//joinRDD.take(5).foreach(println)\njoinRDD.map{case(x, y) => (x, y)}.take(5).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T20:45:13+0000",
-      "progress": 28,
+      "dateUpdated": "2021-07-25T21:44:50+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1834,35 +1831,19 @@
         ]
       },
       "apps": [],
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:46855/jobs/job?id=36",
-              "$$hashKey": "object:15693"
-            }
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
+      "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_161244992",
+      "jobName": "paragraph_1627249490616_992638847",
       "id": "paragraph_1627053214437_490030421",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "dateStarted": "2021-07-25T20:45:13+0000",
-      "dateFinished": "2021-07-25T20:45:14+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:11987"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48327"
     },
     {
       "title": "Display userid, hit count, first name, last name for the first 5 elements",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T20:42:43+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1886,16 +1867,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627245753309_140877004",
+      "jobName": "paragraph_1627249490616_1906122822",
       "id": "paragraph_1627245753309_140877004",
-      "dateCreated": "2021-07-25T20:42:33+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11988"
+      "$$hashKey": "object:48328"
     },
     {
       "text": "%spark\njoinRDD.map{case(a,(b,c)) => (a,b,c.split(',')(3),c.split(',')(4))}.take(5).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:01:49+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1924,35 +1905,19 @@
         ]
       },
       "apps": [],
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:46855/jobs/job?id=43",
-              "$$hashKey": "object:15791"
-            }
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
+      "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627238955220_1399080786",
+      "jobName": "paragraph_1627249490616_575024521",
       "id": "paragraph_1627053226766_1079424076",
-      "dateCreated": "2021-07-25T18:49:15+0000",
-      "dateStarted": "2021-07-25T21:01:49+0000",
-      "dateFinished": "2021-07-25T21:01:50+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:11989"
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48329"
     },
     {
       "title": "key accounts by postal/zip code",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:02:51+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1976,16 +1941,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627246609030_1991742332",
+      "jobName": "paragraph_1627249490616_1127307165",
       "id": "paragraph_1627246609030_1991742332",
-      "dateCreated": "2021-07-25T20:56:49+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "$$hashKey": "object:11990"
+      "$$hashKey": "object:48330"
     },
     {
       "text": "%spark\nval keyZipCodeRDD = accountsRDD.keyBy{case(x,y) => y.split(',')(5).split(' ')(0)}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:17:38+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2004,17 +1969,6 @@
         "params": {},
         "forms": {}
       },
-      "apps": [],
-      "runtimeInfos": {},
-      "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627247481616_354813219",
-      "id": "paragraph_1627247481616_354813219",
-      "dateCreated": "2021-07-25T21:11:21+0000",
-      "status": "FINISHED",
-      "focus": true,
-      "$$hashKey": "object:16038",
-      "dateFinished": "2021-07-25T21:17:38+0000",
-      "dateStarted": "2021-07-25T21:17:38+0000",
       "results": {
         "code": "SUCCESS",
         "msg": [
@@ -2023,12 +1977,20 @@
             "data": "\u001b[1m\u001b[34mkeyZipCodeRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[(String, (String, String))]\u001b[0m = MapPartitionsRDD[137] at keyBy at <console>:31\n"
           }
         ]
-      }
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1627249490616_1112644304",
+      "id": "paragraph_1627247481616_354813219",
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48331"
     },
     {
       "text": "%spark\nkeyZipCodeRDD.take(5).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:17:48+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2047,30 +2009,6 @@
         "params": {},
         "forms": {}
       },
-      "apps": [],
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:46855/jobs/job?id=48",
-              "$$hashKey": "object:16360"
-            }
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
-      "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627247370421_135170256",
-      "id": "paragraph_1627247370421_135170256",
-      "dateCreated": "2021-07-25T21:09:30+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:11992",
-      "dateFinished": "2021-07-25T21:17:48+0000",
-      "dateStarted": "2021-07-25T21:17:48+0000",
       "results": {
         "code": "SUCCESS",
         "msg": [
@@ -2079,12 +2017,21 @@
             "data": "(2275,(94656,1,2008-12-31 15:05:45,2013-12-29 09:53:35,Donald,Becton,2275 Washburn Street,Oakland,CA,94656,5104529635,2013-12-27 15:01:36,2013-12-27 15:01:36))\n(3885,(94978,2,2008-10-31 01:29:51,\\N,Donna,Jones,3885 Elliott Street,Santa Rosa,CA,94978,7072247159,2013-12-27 15:01:36,2013-12-27 15:01:36))\n(4073,(94922,3,2008-12-14 00:49:06,\\N,Dorthy,Chalmers,4073 Whaley Lane,Santa Rosa,CA,94922,7079781240,2013-12-27 15:01:36,2013-12-27 15:01:36))\n(1447,(94041,4,2008-12-13 02:07:05,2014-01-10 21:53:21,Leila,Spencer,1447 Ross Street,San Francisco,CA,94041,4158217430,2013-12-27 15:01:36,2013-12-27 15:01:36))\n(2767,(94318,5,2008-11-30 02:25:21,\\N,Anita,Laughlin,2767 Hill Street,Palo Alto,CA,94318,6502067779,2013-12-27 15:01:36,2013-12-27 15:01:36))\n"
           }
         ]
-      }
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1627249490616_539770175",
+      "id": "paragraph_1627247370421_135170256",
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48332"
     },
     {
+      "title": "map account data to lastname,firstname",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:19:59+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2108,18 +2055,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627247858462_371991699",
+      "jobName": "paragraph_1627249490616_1276173342",
       "id": "paragraph_1627247858462_371991699",
-      "dateCreated": "2021-07-25T21:17:38+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "focus": true,
-      "$$hashKey": "object:16249",
-      "title": "map account data to lastname,firstname"
+      "$$hashKey": "object:48333"
     },
     {
       "text": "%spark\nval accountMapNameRDD = keyZipCodeRDD.map{case(x,(y,z)) => (x, z.split(',')(4), z.split(',')(3))}",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:26:41+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2138,17 +2083,6 @@
         "params": {},
         "forms": {}
       },
-      "apps": [],
-      "runtimeInfos": {},
-      "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627248001680_1946331793",
-      "id": "paragraph_1627248001680_1946331793",
-      "dateCreated": "2021-07-25T21:20:01+0000",
-      "status": "FINISHED",
-      "focus": true,
-      "$$hashKey": "object:16400",
-      "dateFinished": "2021-07-25T21:26:41+0000",
-      "dateStarted": "2021-07-25T21:26:41+0000",
       "results": {
         "code": "SUCCESS",
         "msg": [
@@ -2157,12 +2091,21 @@
             "data": "\u001b[1m\u001b[34maccountMapNameRDD\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[(String, String, String)]\u001b[0m = MapPartitionsRDD[139] at map at <console>:32\n"
           }
         ]
-      }
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1627249490616_1577289986",
+      "id": "paragraph_1627248001680_1946331793",
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48334"
     },
     {
+      "title": "print the first 5 zip codes and list the names",
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:20:21+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2186,18 +2129,136 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627248009073_506279369",
+      "jobName": "paragraph_1627249490616_702512313",
       "id": "paragraph_1627248009073_506279369",
-      "dateCreated": "2021-07-25T21:20:09+0000",
+      "dateCreated": "2021-07-25T21:44:50+0000",
       "status": "READY",
-      "focus": true,
-      "$$hashKey": "object:16469",
-      "title": "print the first 5 zip codes and list the names"
+      "$$hashKey": "object:48335"
     },
     {
       "text": "%spark\naccountMapNameRDD.take(5).foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:26:44+0000",
+      "dateUpdated": "2021-07-25T21:44:50+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "(2275,Becton,Donald)\n(3885,Jones,Donna)\n(4073,Chalmers,Dorthy)\n(1447,Spencer,Leila)\n(2767,Laughlin,Anita)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1627249490616_86454142",
+      "id": "paragraph_1627248022833_248914273",
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48336"
+    },
+    {
+      "title": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-25T21:45:59+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1627249490616_648105030",
+      "id": "paragraph_1627248404352_1590354137",
+      "dateCreated": "2021-07-25T21:44:50+0000",
+      "status": "READY",
+      "$$hashKey": "object:48337"
+    },
+    {
+      "title": "HDFS OKUYORUZ. window 1 dakika refresh 10 saniye. 1 dakika içerisinde 3 toplamda 6 tane dosyayı stream ettiğimiz directory atıyoruz.",
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-25T21:46:26+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "java.lang.NullPointerException\n\tat org.apache.zeppelin.spark.SparkInterpreter.getZeppelinContext(SparkInterpreter.java:212)\n\tat org.apache.zeppelin.interpreter.AbstractInterpreter.interpret(AbstractInterpreter.java:36)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:110)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:846)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:738)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:172)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler.lambda$runJobInScheduler$0(FIFOScheduler.java:42)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1627249562450_683895084",
+      "id": "paragraph_1627249562450_683895084",
+      "dateCreated": "2021-07-25T21:46:02+0000",
+      "dateStarted": "2021-07-25T21:46:19+0000",
+      "dateFinished": "2021-07-25T21:46:19+0000",
+      "status": "ERROR",
+      "$$hashKey": "object:48338"
+    },
+    {
+      "text": "%spark\nimport org.apache.spark._\nimport org.apache.spark.streaming._\nimport org.apache.spark.streaming.StreamingContext._",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-25T22:05:22+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2217,44 +2278,52 @@
         "forms": {}
       },
       "apps": [],
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            {
-              "jobUrl": "http://istdsa-de-m.us-central1-c.c.mysa-302309.internal:46855/jobs/job?id=50",
-              "$$hashKey": "object:16807"
-            }
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
+      "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627248022833_248914273",
-      "id": "paragraph_1627248022833_248914273",
-      "dateCreated": "2021-07-25T21:20:22+0000",
-      "status": "FINISHED",
-      "focus": true,
-      "$$hashKey": "object:16555",
-      "dateFinished": "2021-07-25T21:26:44+0000",
-      "dateStarted": "2021-07-25T21:26:44+0000",
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "(2275,Becton,Donald)\n(3885,Jones,Donna)\n(4073,Chalmers,Dorthy)\n(1447,Spencer,Leila)\n(2767,Laughlin,Anita)\n"
-          }
-        ]
-      }
+      "jobName": "paragraph_1627249579878_1150086887",
+      "id": "paragraph_1627249579878_1150086887",
+      "dateCreated": "2021-07-25T21:46:19+0000",
+      "status": "READY",
+      "$$hashKey": "object:48339"
+    },
+    {
+      "title": "total user req countu sayıyoruz.",
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-25T21:46:47+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1627249593090_1092256034",
+      "id": "paragraph_1627249593090_1092256034",
+      "dateCreated": "2021-07-25T21:46:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:48340"
     },
     {
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-07-25T21:26:44+0000",
+      "dateUpdated": "2021-07-25T21:46:49+0000",
       "progress": 0,
       "config": {
         "colWidth": 12,
@@ -2276,16 +2345,15 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1627248404352_1590354137",
-      "id": "paragraph_1627248404352_1590354137",
-      "dateCreated": "2021-07-25T21:26:44+0000",
+      "jobName": "paragraph_1627249609065_525447324",
+      "id": "paragraph_1627249609065_525447324",
+      "dateCreated": "2021-07-25T21:46:49+0000",
       "status": "READY",
-      "focus": true,
-      "$$hashKey": "object:16707"
+      "$$hashKey": "object:48341"
     }
   ],
   "name": "kursat-de-project",
-  "id": "2GB23J3QH",
+  "id": "2GD2F79QB",
   "defaultInterpreterGroup": "spark",
   "version": "0.9.0",
   "noteParams": {},
